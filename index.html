@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelompok Tani Mulyosari</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm top-0 fixed-top">
+        <div class="container">
+            <!-- Logo & Nama Organisasi -->
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="https://petrusdavidadipranata.github.io/images-ksu/logo.png" alt="Logo Kelompok Tani" width="64" height="64" class="me-2">
+                <div class="">
+                    <span class="title fw-bold text-dark">KSU Tani Maju</span><br>
+                    <span class="text-sm fw-semibold">Mulyosari</span>
+                </div>
+            </a>
+
+            <!-- Toggle Button untuk Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Menu Navigasi -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#profil">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#about">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#produk">Produk</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#kontak">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero d-flex align-items-center text-white text-center">
+        <div class="container heroContent">
+            <h1 class="display-4 fw-bold">Bersama Tani, Sejahtera Negeri</h1>
+            <p class="fs-6">Mari Ciptakan Pertanian Berbasis Teknologi </p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold">Tentang Kami</h2>
+            <p class="lead fs-5"> KSU Tani Maju Mulyosari adalah kelompok Serba Usaha tani yang berkomitmen dalam meningkatkan hasil pertanian 
+                dengan teknik modern, inovasi, serta kebersamaan yang erat di antara para petani.</p>
+        </div>
+    </section>
+    <hr>
+    <div class="">
+        <div class="p-4 text-center" >
+            <h1 class="fs-3 fw-bold mb-5">Profil</h1>
+            <div class="">
+                <img src="https://petrusdavidadipranata.github.io/images-ksu/Profile.png" alt="Ketua" class="rounded-circle" width="50" height="50" class="mx-auto d-block mt-3">
+                <h2 class="fs-4 fw-bold">Ketua</h2>
+                <p class="fs-5">Anwar Rosadi</p>
+            </div>
+    
+            <div class="d-flex justify-content-center gap-4 mt-4">
+                <div class="text-center mx-3">
+                    <img src="https://petrusdavidadipranata.github.io/images-ksu/Profile.png" alt="Sekretaris" class="rounded-circle" width="50" height="50">
+                    <h2 class="fs-5 fw-bold mt-2">Sekretaris</h2>
+                    <p class="fs-5">Ibnu Hasan</p>
+                </div>
+    
+                <div class="text-center mx-3">
+                    <img src="https://petrusdavidadipranata.github.io/images-ksu/Profile.png" alt="Bendahara" class="rounded-circle" width="50" height="50">
+                    <h2 class="fs-5 fw-bold mt-2">Bendahara</h2>
+                    <p class="fs-5">Misnanto</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="mt-8 text-center gap-6">
+        <div class="p-6 bg-gray-100 rounded-lg">
+            <h3 class="text-2xl font-bold">Visi</h3>
+            <p class="text-gray-700 lead">Menjadi Kelompok Tani modern yang berdaya saing tinggi.</p>
+        </div>
+        <div class="p-6 bg-gray-100 rounded-lg">
+            <h3 class="text-2xl font-bold">Misi</h3>
+            <ul class="text-gray-700 text-center lead list-disc list-inline">
+                <li>Mempermudah para petani</li>
+                <li>Mewujudkan Kesejahteraan Petani</li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+
+    <div class="d-grid gap-4">
+        <section id="activities" class="py-5 bg-light">
+            <div class="container text-center">
+                <h2 class="fw-bold mb-4">Kegiatan Kami</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4"> <!-- Tambahkan mb-4 untuk jarak antar kartu -->
+                        <div class="card shadow-sm h-100">
+                            <img src="https://petrusdavidadipranata.github.io/images-ksu/farming.jpeg" class="card-img-top" alt="Farming">
+                            <div class="card-body">
+                                <h5 class="card-title">Pelatihan Pertanian</h5>
+                                <p class="card-text">Kami mengadakan pelatihan rutin untuk meningkatkan keterampilan petani.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4"> <!-- Tambahkan mb-4 untuk jarak antar kartu -->
+                        <div class="card shadow-sm h-100">
+                            <img src="https://petrusdavidadipranata.github.io/images-ksu/market.png" class="card-img-top" alt="Market">
+                            <div class="card-body">
+                                <h5 class="card-title">Pasar Tani</h5>
+                                <p class="card-text">Menjual hasil pertanian langsung ke konsumen dengan harga lebih baik.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4"> <!-- Tambahkan mb-4 untuk jarak antar kartu -->
+                        <div class="card shadow-sm h-100">
+                            <img src="https://petrusdavidadipranata.github.io/images-ksu/inovation.png" class="card-img-top" alt="Innovation">
+                            <div class="card-body">
+                                <h5 class="card-title">Inovasi Pertanian</h5>
+                                <p class="card-text">Kami terus mencari metode baru untuk meningkatkan hasil panen.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>    
+    <hr>
+    <div class="d-grid gap-4">
+        <section id="produk" class="py-5 bg-light">
+            <div class="container text-center">
+                <h2 class="fw-bold mb-4">Produk Kami</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4"> <!-- Tambahkan mb-4 untuk jarak antar kartu -->
+                        <div class="card shadow-sm h-100">
+                            <img src="https://petrusdavidadipranata.github.io/images-ksu/urea.jpg" class="card-img-top" alt="Farming">
+                            <div class="card-body">
+                                <h5 class="card-title">Pupuk Urea</h5>
+                                <p class="card-text">Rp. 150.000</p>
+                                <a href="https://wa.me/6283168740700" class="btn btn-success">Beli Sekarang</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4"> <!-- Tambahkan mb-4 untuk jarak antar kartu -->
+                        <div class="card shadow-sm h-100">
+                            <img src="https://petrusdavidadipranata.github.io/images-ksu/nitrea.jpg" class="card-img-top" alt="Market">
+                            <div class="card-body">
+                                <h5 class="card-title">Pupuk Nitrea</h5>
+                                <p class="card-text">Rp. 150.000</p>
+                                <a href="https://wa.me/6283168740700" class="btn btn-success">Beli Sekarang</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4"> <!-- Tambahkan mb-4 untuk jarak antar kartu -->
+                        <div class="card shadow-sm h-100">
+                            <img src="https://petrusdavidadipranata.github.io/images-ksu/phonska.jpg" class="card-img-top" alt="Innovation">
+                            <div class="card-body">
+                                <h5 class="card-title">Pupuk Phonska</h5>
+                                <p class="card-text">Rp. 150.000</p>
+                                <a href="https://wa.me/6283168740700" class="btn btn-success">Beli Sekarang</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>    
+
+    <!-- Activities Section -->
+
+    <!-- Contact Section -->
+    <section id="alamat" class="py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-3">Alamat Kami</h2>
+            <p class="mb-4">Berikut adalah lokasi kami.</p>
+        
+            <!-- Google Maps Embed -->
+            <div class="ratio ratio-16x9 mb-3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3777.109968305631!2d105.27621969999998!3d-5.147634299999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e40b90dc0a5e6cb%3A0xa5b9e6969e5f18b0!2sKantor%20Kelurahan%20Mulyosari!5e1!3m2!1sid!2sid!4v1738881774753!5m2!1sid!2sid" width="600" height="450" class="rounded-3" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        
+            <!-- Link ke Google Maps -->
+            <a href="https://maps.app.goo.gl/qBEMGwjwgMCCbmzB7" target="_blank" class="btn btn-success">
+                Buka di Google Maps
+            </a>
+        </div>
+        
+    </section>
+    <section id="contact" class="py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold">Hubungi Kami</h2>
+            <p>Berikut adalah kontak yang dapat dihubungi jika anda membutuhkan keperluan pertanian</p>
+        
+            <!-- Tombol WhatsApp -->
+            <a href="https://wa.me/6281234567890" target="_blank" class="btn btn-success">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+        
+            <!-- Tombol Instagram -->
+            <a href="https://www.instagram.com/username" target="_blank" class="btn btn-danger">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <br>
+            <!-- Tombol Hubungi Kami -->
+            <button class="btn btn-primary mt-3" onclick="showAlert()">
+                <i class="fas fa-phone"></i> Hubungi Kami
+            </button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-success text-white text-center py-3">
+        <p class="mb-0">© 2025 KSU Tani Maju Mulyosari | Semua Hak Dilindungi</p>
+        <p>Made with 💜 by PKPM 05 Dharma Wacana Metro 2025</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function showAlert() {
+            alert("Silakan hubungi kami melalui WhatsApp atau Instagram!");
+        }
+    </script>
+</body>
+</html>
