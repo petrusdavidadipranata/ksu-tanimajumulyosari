@@ -2,11 +2,18 @@
 body {
     font-family: 'helvetica', sans-serif;
 }
-
-/* Navbar */
 .navbar {
-    font-size: 18px;
-    font-weight: 500;
+    background: rgba(255, 255, 255, 0.9); /* Warna putih dengan sedikit transparansi */
+    backdrop-filter: blur(10px); /* Efek blur kaca */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan agar terlihat elegan */
+    transition: background-color 0.3s, backdrop-filter 0.3s;
+}
+
+/* Navbar dengan efek kaca lebih jelas saat discroll */
+.navbar.scrolled {
+    background: rgba(255, 255, 255, 0.545); /* Lebih solid saat discroll */
+    backdrop-filter: blur(15px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 /* Navbar Brand (Logo & Nama) */
